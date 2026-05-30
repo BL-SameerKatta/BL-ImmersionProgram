@@ -1,0 +1,1 @@
+import java.util.*; public class CollectionsDemo{public static void main(String[]a){ArrayList<String> list=new ArrayList<>();list.add("Sameer");HashMap<String,Integer> map=new HashMap<>();map.put("Sameer",1);System.out.println(map.get("Sameer"));}}

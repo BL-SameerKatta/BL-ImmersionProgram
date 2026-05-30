@@ -1,0 +1,1 @@
+class Pair<T,U>{T f;U s;Pair(T f,U s){this.f=f;this.s=s;}} public class GenericsDemo{public static <T extends Comparable<T>> T findMax(T[] a){T m=a[0];for(T x:a)if(x.compareTo(m)>0)m=x;return m;} public static void main(String[]args){Integer[] a={1,9,2};System.out.println(findMax(a));}}

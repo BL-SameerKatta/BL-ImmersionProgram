@@ -1,0 +1,1 @@
+class Vehicle{double fuelCost(int km){return 0;}} class Car extends Vehicle{double fuelCost(int km){return km*5;}} public class PolymorphismDemo{public static void main(String[]a){Vehicle v=new Car();System.out.println(v.fuelCost(10));}}

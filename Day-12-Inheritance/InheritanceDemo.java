@@ -1,0 +1,1 @@
+class Person{String name;Person(String n){name=n;}} class Student extends Person{final int id;Student(String n,int i){super(n);id=i;}} class GradStudent extends Student{GradStudent(String n,int i){super(n,i);}} public class InheritanceDemo{public static void main(String[]a){new GradStudent("Sameer",1);}}
