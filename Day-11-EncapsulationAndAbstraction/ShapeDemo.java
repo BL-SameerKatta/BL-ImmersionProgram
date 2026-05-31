@@ -1,1 +1,0 @@
-abstract class Shape{abstract double area();} class Circle extends Shape{double r;Circle(double r){this.r=r;}double area(){return Math.PI*r*r;}} public class ShapeDemo{public static void main(String[]a){System.out.println(new Circle(5).area());}}
