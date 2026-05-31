@@ -1,0 +1,1 @@
+import java.util.*; public class Day09_StudentGradeManager{public static void main(String[] a){Map<String,Integer> m=new HashMap<>();m.put("Sameer",85);System.out.println(m);}}
