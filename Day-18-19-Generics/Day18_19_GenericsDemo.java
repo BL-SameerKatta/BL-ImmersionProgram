@@ -1,1 +1,1 @@
-class Box<T>{T v;Box(T v){this.v=v;}} public class Day18_19_GenericsDemo{public static void main(String[] a){Box<String> b=new Box<>("Generics");}}
+public class Day18_19_GenericsDemo { public static void main(String[] args){ System.out.println("Generics Demo"); } }

@@ -1,1 +1,0 @@
-interface Trackable{void logActivity();} class FitnessDevice implements Trackable{public void logActivity(){System.out.println("Logged");}} public class InterfacesDemo{public static void main(String[]a){new FitnessDevice().logActivity();}}

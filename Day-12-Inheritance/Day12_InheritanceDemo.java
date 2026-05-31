@@ -1,1 +1,1 @@
-class Person{String n="Sameer";} class Student extends Person{} public class Day12_InheritanceDemo{public static void main(String[] a){System.out.println(new Student().n);}}
+public class Day12_InheritanceDemo { public static void main(String[] args){ System.out.println("Inheritance Demo"); } }

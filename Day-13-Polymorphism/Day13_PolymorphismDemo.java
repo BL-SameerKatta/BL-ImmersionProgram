@@ -1,1 +1,1 @@
-class Animal{void sound(){}} class Dog extends Animal{void sound(){System.out.println("Bark");}} public class Day13_PolymorphismDemo{public static void main(String[] a){Animal x=new Dog();x.sound();}}
+public class Day13_PolymorphismDemo { public static void main(String[] args){ System.out.println("Polymorphism Demo"); } }

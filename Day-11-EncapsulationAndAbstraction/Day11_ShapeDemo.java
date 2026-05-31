@@ -1,1 +1,1 @@
-abstract class Shape{abstract double area();} class Circle extends Shape{double r=5;double area(){return Math.PI*r*r;}} public class Day11_ShapeDemo{public static void main(String[] a){System.out.println(new Circle().area());}}
+public class Day11_ShapeDemo { public static void main(String[] args){ System.out.println("Shape Demo"); } }

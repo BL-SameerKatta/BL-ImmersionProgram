@@ -1,1 +1,1 @@
-import java.util.*; public class Day16_17_CollectionsDemo{public static void main(String[] a){List<String> l=new ArrayList<>();l.add("Java");System.out.println(l);}}
+public class Day16_17_CollectionsDemo { public static void main(String[] args){ System.out.println("Collections Demo"); } }
