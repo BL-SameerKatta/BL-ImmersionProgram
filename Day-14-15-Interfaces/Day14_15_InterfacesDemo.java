@@ -1,0 +1,1 @@
+interface Printable{void print();} class Report implements Printable{public void print(){System.out.println("Report");}} public class Day14_15_InterfacesDemo{public static void main(String[] a){new Report().print();}}

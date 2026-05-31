@@ -1,0 +1,1 @@
+public class Day10_BankAccountDemo{static class BankAccount{double b;BankAccount(double b){this.b=b;}void deposit(double a){b+=a;}} public static void main(String[] a){BankAccount x=new BankAccount(100);x.deposit(50);}}
